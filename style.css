@@ -8,16 +8,17 @@ h1 {
 span {
   color: goldenrod;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
 .half-width {
   width: 80%;
   padding-left: 5%;
+  
 }
 .half-width img {
-  width: 80%;
+  width: 50%;
 }
 .link-button {
   text-decoration: none;
@@ -34,4 +35,43 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+  
 }
+.exp-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3%;
+  box-shadow:10px 10px 40px gray;
+  text-align: center;
+  border-radius: 10px;
+  border-left: red;
+ 
+}
+h2{
+  font-size: 30px;
+}
+.expirence-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  }
+  #web-dev-expirecnce{
+    border-image-slice: 1;
+    border-image: linear-gradient(blue cyan);
+    border-left: 7px solid;
+  }
+  #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+  }
+  footer p{
+    text-align: center;
+  }
+    
+    
+    
+
+  
